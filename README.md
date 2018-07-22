@@ -5,7 +5,7 @@ Regexer is a builder style library to help build Regular Expressions.
 I've always had a love/hate relationship with Regular Expressions and wanted a library to help me build them easily that would also enable self documenting code. There's nothing worse than trying to debug something and coming across a huge regular expression that stops me in my tracks.
 
 ## Oh okay, how does it work?
-Well, the Regexer library allows you to build a regular expression in code, which will then return either a fully escaped regular expression as a `String` or provide a `Pattern` or `Matcher` object back as needed.
+Well, the Regexer library allows you to build a regular expression in code, which will then return either a fully escaped regular expression as a `String` or provide a `java.util.regex.Pattern` or `java.util.regex.Matcher` object back as needed.
 
 Let's see it in action.
 
